@@ -38,6 +38,13 @@ section {
 
 /* FINE CLASSI DI DEBUG DA RIMUOVERE */
 
+/* img,
+svg,
+picture,
+video {
+    max-width: 100%;
+} */
+
 .navbar-dark{
     background-color: #2c3e50 !important;
 }
@@ -61,4 +68,10 @@ section {
 .line {
     height: 4px;
     width: 15%;
+}
+
+.portfolio-line{
+    height: 4px;
+    width: 15%;
+    background-color: #2c3e50;
 }
