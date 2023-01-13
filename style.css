@@ -10,7 +10,7 @@ section {
     border: 2px dashed green;
 } */
 
-[class*="container"] {
+/* [class*="container"] {
     min-height: 20px;
     border: 2px dashed orange;
 }
@@ -19,7 +19,7 @@ section {
 #jumbotron>.box {
     min-height: 80px;
     border: 2px dashed aqua;
-}
+} */
 
 .box.box-img {
     height: 300px;
@@ -37,13 +37,6 @@ section {
 }
 
 /* FINE CLASSI DI DEBUG DA RIMUOVERE */
-
-/* img,
-svg,
-picture,
-video {
-    max-width: 100%;
-} */
 
 .navbar-dark{
     background-color: #2c3e50 !important;
@@ -74,4 +67,18 @@ video {
     height: 4px;
     width: 15%;
     background-color: #2c3e50;
+}
+
+img{
+    border-radius: 10px;
+}
+
+#about{
+    background-color: #1abc9c;
+}
+
+.button{
+    background-color: #1abc9c;
+    border: 1px solid #fff;
+    border-radius: 7px;
 }
